@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "image": "https://www.organicfacts.net/wp-content/uploads/2013/05/watermelon2.jpg",
+        "clicked": false
+    },
+    {
+        "id": 2,
+        "image": "https://shared1.ad-lister.co.uk/UserImages/7eb3717d-facc-4913-a2f0-28552d58320f/Img/allartificia/180-2.jpg",
+        "clicked": false
+    },
+    {
+        "id": 3,
+        "image": "https://4.imimg.com/data4/NQ/LA/GLADMIN-1134550/apple-500x500.jpg",
+        "clicked": false
+    },
+    {
+        "id": 4,
+        "image": "https://www.organicfacts.net/wp-content/uploads/2013/05/Banana3.jpg",
+        "clicked": false
+    },
+    {
+        "id": 5,
+        "image": "https://www.fruitsinfo.com/images/orange-whole-fruits.jpg",
+        "clicked": false
+    },
+    {
+        "id": 6,
+        "image": "https://www.collinsdictionary.com/images/thumb/grape_229112122_250.jpg?version=3.1.125",
+        "clicked": false
+    },
+    {
+        "id": 7,
+        "image": "https://cdn1.medicalnewstoday.com/content/images/articles/287/287710/blueberries.jpg",
+        "clicked": false
+    },
+    {
+        "id": 8,
+        "image": "https://www.organicfacts.net/wp-content/uploads/2013/06/cantaloupemelon.jpg",
+        "clicked": false
+    },
+    {
+        "id": 9,
+        "image": "https://wtop.com/wp-content/uploads/2017/06/raspberries-1880x1254.jpg",
+        "clicked": false
+    },
+    {
+        "id": 10,
+        "image": "https://www.organicfacts.net/wp-content/uploads/2013/05/Pomegranate11.jpg",
+        "clicked": false
+    },
+    {
+        "id": 11,
+        "image": "http://www.turkopia.com/images/detailed/1/mango.jpg",
+        "clicked": false
+    },
+    {
+        "id": 12,
+        "image": "https://www.organicfacts.net/wp-content/uploads/pear.jpg",
+        "clicked": false
+    }
+]
