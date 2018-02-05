@@ -55,8 +55,12 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
+      <container>
+      <h2>Clicky game</h2>
+      <h4>Clcik any fruit to begin.  Then click on a different image.  The game will end if you select a duplicate image.</h4>
       <p>Current Score: {this.state.currentScore}</p>
       <p>High Score: {this.state.highScore}</p>
+      </container>
       {this.state.images.map(images => (
       <FruitCard
       key={images.id}
