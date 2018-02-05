@@ -46,6 +46,7 @@ class App extends Component {
 
   handleReset = () => {
     this.setState({
+      alert: "Game over",
       currentScore: 0,
       highScore: this.state.highScore,
       clicked: []
@@ -56,13 +57,16 @@ class App extends Component {
     return (
       <Wrapper>
       <container>
-      <h2>Clicky game</h2>
-      <h4>Clcik any fruit to begin.  Then click on a different image.  The game will end if you select a duplicate image.</h4>
-      <p>Current Score: {this.state.currentScore}</p>
-      <p>High Score: {this.state.highScore}</p>
+      <div class="jumbotron">
+        <h1>Clicky Game</h1>
+        <h4>Click any fruit to begin.  Then click on a different image.  The game will end if you select a duplicate image.</h4>
+        <p>Current Score: {this.state.currentScore}</p>
+        <p>High Score: {this.state.highScore}</p>
+      </div>
       </container>
       {this.state.images.map(images => (
       <FruitCard
+      handleClick={this.handleClick}
       key={images.id}
       id={images.id}
       image={images.image}
