@@ -35,10 +35,6 @@ class App extends Component {
    if (currentGameScore >= this.state.highScore) {
      this.setState({ highScore: currentGameScore });
    }
-  //   this.setState({ currentScore: this.state.currentScore + 1 });
-  //   if (currentScore >= this.state.highScore) {
-  //     this.setState({ highScore: currentScore });
-  //   }
     else if (currentGameScore === 12) {
         this.setState({ alert: "YOU WON!!" });
       }
@@ -46,7 +42,6 @@ class App extends Component {
 
   handleReset = () => {
     this.setState({
-      alert: "Game over",
       currentScore: 0,
       highScore: this.state.highScore,
       clicked: []
