@@ -59,14 +59,14 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-      {/* <container> */}
+      <container>
       <div class="jumbotron">
-        <h1>Clicky Game</h1>
+        <h1>Fruit Click Game</h1>
         <h4>Click any fruit to begin.  Then click on a different image.  The game will end if you select a duplicate image.</h4>
         <p>Current Score: {this.state.currentScore}</p>
         <p>High Score: {this.state.highScore}</p>
       </div>
-      {/* </container> */}
+      </container>
       {this.state.images.map(images => (
       <FruitCard
       handleClick={this.handleClick}
