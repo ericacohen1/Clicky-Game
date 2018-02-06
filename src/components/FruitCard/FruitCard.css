@@ -36,6 +36,11 @@
   .card > .content > ul > li {
     margin-top: 18px;
   }
+
+  img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
   
   .card > .remove {
     color: #ff1744;
