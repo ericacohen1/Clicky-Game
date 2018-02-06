@@ -17,10 +17,18 @@ class App extends Component {
     alert: ""
   };
 
+  handleShuffle = (a) => {
+    for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+    }
+  }
+
   handleClick = id => {
     if (this.state.clicked.indexOf(id) === -1) {
       this.handleIncrement();
       this.setState ({ clicked: this.state.clicked.concat(id)});
+      this.handleShuffle(images);
     }
     else {
       this.handleReset();
